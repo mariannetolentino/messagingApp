@@ -9,6 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".create_main"></activity>
+        <activity
+            android:name=".create2_main"></activity>
+        <activity
+            android:name=".forgot_main"></activity>
+        <activity
+            android:name=".forgotpassword_main"></activity>
+        <activity
+            android:name=".forgotusername_main"></activity>
+        <activity
+            android:name=".login_main"></activity>
+        <activity
+            android:name=".passwordreset_main"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
