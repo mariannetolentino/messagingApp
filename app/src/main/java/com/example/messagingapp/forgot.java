@@ -28,7 +28,7 @@ public class forgot extends AppCompatActivity {
 
         //once user hits forgot password button
         //sends them to forgotpassword screen
-        forgotP = (Button) findViewById(R.id.create);
+        forgotP = (Button) findViewById(R.id.forgotPassword);
         forgotP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -34,7 +34,7 @@ public class create extends AppCompatActivity {
         //once user inputs information and clicks on login button
         //button is set to check database, if true, moves on
         //if false states false and resets inputs
-        loginbtn = (Button) findViewById(R.id.login);
+        loginbtn = (Button) findViewById(R.id.conti);
         loginbtn.setOnClickListener(new View.OnClickListener(){
             @Override
             //gets username and password inputs to convert
@@ -55,7 +55,7 @@ public class create extends AppCompatActivity {
 
         //once user hits cancel button
         //sends them to main(login) screen
-        cancelbtn = (Button) findViewById(R.id.create);
+        cancelbtn = (Button) findViewById(R.id.createCancel);
         cancelbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

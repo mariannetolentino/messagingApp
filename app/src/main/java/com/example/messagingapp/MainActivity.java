@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         //once user hits forgot button
         //sends them to forgot screen
-        forgotbtn = (Button) findViewById(R.id.forgot);
+        forgotbtn = (Button) findViewById(R.id.forgotmain);
         forgotbtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

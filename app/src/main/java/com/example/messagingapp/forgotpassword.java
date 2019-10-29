@@ -30,16 +30,16 @@ public class forgotpassword extends AppCompatActivity {
         security2 = (EditText) findViewById(R.id.secQ2);
         username = (EditText) findViewById(R.id.userName);
 
-        donebtn = (Button) findViewById(R.id.done);
-        donebtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (){
-
-                    startActivity(new Intent(forgotpassword.this, passwordreset.class));
-                 }
-             }
-         });
+//        donebtn = (Button) findViewById(R.id.done);
+//        donebtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (){
+//
+//                    startActivity(new Intent(forgotpassword.this, passwordreset.class));
+//                 }
+//             }
+//         });
 
         cancelbtn = (Button) findViewById(R.id.cancel);
         cancelbtn.setOnClickListener(new View.OnClickListener(){

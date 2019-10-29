@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.758" />
 
     <Button
-        android:id="@+id/forgot"
+        android:id="@+id/forgotmain"
         android:layout_width="219dp"
         android:layout_height="60dp"
         android:layout_marginStart="8dp"

@@ -32,28 +32,28 @@ public class forgotusername extends AppCompatActivity {
         email = (EditText) findViewById(R.id.userEmail);
         birthday = (EditText) findViewById(R.id.userBday);
 
-        done = (Button) findViewById(R.id.done);
-        done.setOnClickListener(new View.OnClickListener(){
-            @Override
-            //gets username and password inputs to convert
-            //to string, used to compare strings to database
-            public void onClick(View v) {
-                sName = name.getText().toString();
-                sEmail = email.getText().toString();
-                sBday = birthday.getText().toString();
-
-                if (){
-                    findViewById(R.id.usernameView).setVisibility(View.VISIBLE);
-                    findViewById(R.id.username).setVisibility(View.VISIBLE);
-                    usernametxt = (TextView)findViewById(R.id.username);
-                    TextView.setText();
-                }
-            }
-        });
+//        done = (Button) findViewById(R.id.done);
+//        done.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            //gets username and password inputs to convert
+//            //to string, used to compare strings to database
+//            public void onClick(View v) {
+//                sName = name.getText().toString();
+//                sEmail = email.getText().toString();
+//                sBday = birthday.getText().toString();
+//
+//                if (){
+//                    findViewById(R.id.usernameView).setVisibility(View.VISIBLE);
+//                    findViewById(R.id.username).setVisibility(View.VISIBLE);
+//                    usernametxt = (TextView)findViewById(R.id.username);
+//                    TextView.setText();
+//                }
+//            }
+//        });
 
         //once user hits cancel button
         //sends them to main(login) screen
-        cancel = (Button) findViewById(R.id.create);
+        cancel = (Button) findViewById(R.id.cancel);
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
